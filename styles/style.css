@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 1rem 0;
+}
+
+.details {
+    width: fit-content;
+    margin: 1rem auto;
+    border: 1px solid slategray;
+    text-align: center;
+    background-color: rgb(220, 217, 217);
+}
+
+.details p {
+    padding: 1rem;
+}
+
+#country-container {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.country {
+    border: 2px solid slategray;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.country h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #464646;
+}
+
+.country p {
+    padding-top: 0.5rem;
+}
